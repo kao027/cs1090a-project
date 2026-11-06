@@ -1,0 +1,6 @@
+import pandas as pd
+
+df = pd.read_parquet("/data/processed/tracts_merged.parquet")  # needs pyarrow: pip install pyarrow
+print(df.head())      # first 5 rows
+print(df.info())      # columns, types, row count
+print(df.describe())  # quick stats for numeric columns
