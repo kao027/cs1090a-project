@@ -1,0 +1,577 @@
+{
+ "places_2023_tract.csv": {
+  "url": "https://data.cdc.gov/api/views/hky2-3tpn/rows.csv?accessType=DOWNLOAD",
+  "params": {},
+  "fetched_utc": "2026-11-05T02:49:25+00:00",
+  "bytes": 56011772,
+  "sha256": "c9053f65c7a283a1d1c859374afdff133ffec30a3246a362819535209b17f889"
+ },
+ "usda_lram_2019.zip": {
+  "url": "https://www.ers.usda.gov/media/5627/2019-large-retailer-access-map-lram-formerly-known-as-the-food-access-research-atlas-fara-data.zip?v=91164",
+  "params": {},
+  "fetched_utc": "2026-11-05T02:49:27+00:00",
+  "bytes": 9072578,
+  "sha256": "6a56bb6ab1f35874b850257f0d3f3657e335af1d2d12bf6a64b4868e5e54465d"
+ },
+ "acs2019/state_01.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:01"
+  },
+  "fetched_utc": "2026-11-05T02:58:43+00:00",
+  "bytes": 172870,
+  "sha256": "f7a3d795d03b8f10bebbc98cbf2bf04e58790abeabeffe78f563b277b7bb6250"
+ },
+ "acs2019/state_02.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:02"
+  },
+  "fetched_utc": "2026-11-05T02:58:44+00:00",
+  "bytes": 25817,
+  "sha256": "7358f69be6b01b0551431bcb06df554f05361d6c568515865bfe4e9e96ddc6bb"
+ },
+ "acs2019/state_04.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:04"
+  },
+  "fetched_utc": "2026-11-05T02:58:45+00:00",
+  "bytes": 225519,
+  "sha256": "4abc7b76f3710445fd6cfcb398f3818bb2a9877ed720e92647257e993fd1e23f"
+ },
+ "acs2019/state_05.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:05"
+  },
+  "fetched_utc": "2026-11-05T02:58:46+00:00",
+  "bytes": 101439,
+  "sha256": "226a99af7f670861bb0f7b7e4bb2de1ccc4e2766da8c6c2b600273bae3b834e7"
+ },
+ "acs2019/state_06.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:06"
+  },
+  "fetched_utc": "2026-11-05T02:58:50+00:00",
+  "bytes": 1240516,
+  "sha256": "d4d3588cfa8d7883b1a45be8e6eedf3bcde2e19cbf1f46811575fca906fa30c6"
+ },
+ "acs2019/state_08.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:08"
+  },
+  "fetched_utc": "2026-11-05T02:58:50+00:00",
+  "bytes": 185018,
+  "sha256": "7058c54c05db641953b53397cc9f3da268da5404e23d17c7a99cb4cbd421d473"
+ },
+ "acs2019/state_09.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:09"
+  },
+  "fetched_utc": "2026-11-05T02:58:51+00:00",
+  "bytes": 128107,
+  "sha256": "b8ec9c20fce7230577c0197719e382283b52be371d8e787d46e83e1dff2c4035"
+ },
+ "acs2019/state_10.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:10"
+  },
+  "fetched_utc": "2026-11-05T02:58:52+00:00",
+  "bytes": 32780,
+  "sha256": "6981beaf66cec9d87139fbff9bdb9ff603b3f60f5335ddc46b795df87eb631d9"
+ },
+ "acs2019/state_11.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:11"
+  },
+  "fetched_utc": "2026-11-05T02:58:53+00:00",
+  "bytes": 30511,
+  "sha256": "e6e738eed2285a50951f2d33385f8b9816e61bf4201a2c8c0751669ce2cea3c3"
+ },
+ "acs2019/state_12.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:12"
+  },
+  "fetched_utc": "2026-11-05T02:58:55+00:00",
+  "bytes": 630463,
+  "sha256": "273dd8fc391b9adb96baa923a576d838eb77dd0cc08fbd0f7f0b0a2dee3947a1"
+ },
+ "acs2019/state_13.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:13"
+  },
+  "fetched_utc": "2026-11-05T02:58:56+00:00",
+  "bytes": 290543,
+  "sha256": "45586139ae8581d327297bc700841aa17be4d90ed85a7445b789bb431e7e8615"
+ },
+ "acs2019/state_15.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:15"
+  },
+  "fetched_utc": "2026-11-05T02:58:57+00:00",
+  "bytes": 50909,
+  "sha256": "df54385153ef98abaedba001b83111b61be615d5b28082ed8df3d915d68a4804"
+ },
+ "acs2019/state_16.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:16"
+  },
+  "fetched_utc": "2026-11-05T02:58:57+00:00",
+  "bytes": 43182,
+  "sha256": "e0d986e395602e42e2e5ea930f009a6f6ea2c468408fae1b5f34dd8c02706831"
+ },
+ "acs2019/state_17.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:17"
+  },
+  "fetched_utc": "2026-11-05T02:58:59+00:00",
+  "bytes": 459294,
+  "sha256": "8b6ed81fd9f0b4389322cdd80c5e2c43f14000a702410d77c2951113f05fccbf"
+ },
+ "acs2019/state_18.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:18"
+  },
+  "fetched_utc": "2026-11-05T02:59:00+00:00",
+  "bytes": 220520,
+  "sha256": "232348ed339f17dd3b2dc7fdd6fbe0859e2efee701d8ec929bebe7ff1d9c777f"
+ },
+ "acs2019/state_19.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:19"
+  },
+  "fetched_utc": "2026-11-05T02:59:01+00:00",
+  "bytes": 117181,
+  "sha256": "efe0654b6dc9fd9f454ad6ac7a056529a3eac719440aca829c0f64e0d5ba66ac"
+ },
+ "acs2019/state_20.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:20"
+  },
+  "fetched_utc": "2026-11-05T02:59:01+00:00",
+  "bytes": 111401,
+  "sha256": "ee6654b6b16e8814b34e743a93216fca247190f4965fcd763b614cbe3798bd87"
+ },
+ "acs2019/state_21.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:21"
+  },
+  "fetched_utc": "2026-11-05T02:59:09+00:00",
+  "bytes": 164268,
+  "sha256": "8c49fa8046305513a6cb2c57a24d029d7ac275287cb634df4c43827058f04673"
+ },
+ "acs2019/state_22.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:22"
+  },
+  "fetched_utc": "2026-11-05T02:59:10+00:00",
+  "bytes": 172046,
+  "sha256": "85bc48bb9e828ef443060d498661660ba9263c05c1dfec2964cb02c38de3f292"
+ },
+ "acs2019/state_23.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:23"
+  },
+  "fetched_utc": "2026-11-05T02:59:11+00:00",
+  "bytes": 52108,
+  "sha256": "3d38d5114c08ed1b9b9ae3051ab12c1d127685b1198ed8b5535dd57beab99b6b"
+ },
+ "acs2019/state_24.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:24"
+  },
+  "fetched_utc": "2026-11-05T02:59:12+00:00",
+  "bytes": 214850,
+  "sha256": "462b413c44dd477fa9a24d6cc1c2570deed5cca6c1391981188b4a0134692fcc"
+ },
+ "acs2019/state_25.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:25"
+  },
+  "fetched_utc": "2026-11-05T02:59:13+00:00",
+  "bytes": 230853,
+  "sha256": "837192cb22fc69dfc4ba076924748f51948fdcf3de6703e4ceb650eb810bb74b"
+ },
+ "acs2019/state_26.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:26"
+  },
+  "fetched_utc": "2026-11-05T02:59:14+00:00",
+  "bytes": 410338,
+  "sha256": "a5f60d6bd425c47ea9aafcf21bb1ab82ca3510fe097005831033178e2ce70e50"
+ },
+ "acs2019/state_27.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:27"
+  },
+  "fetched_utc": "2026-11-05T02:59:15+00:00",
+  "bytes": 199930,
+  "sha256": "0b5f0dd5d60a870f549a4e28044d1b47afc7c0780456e82e7eda406aec1edcd0"
+ },
+ "acs2019/state_28.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:28"
+  },
+  "fetched_utc": "2026-11-05T02:59:16+00:00",
+  "bytes": 99931,
+  "sha256": "e5b2ccc8267beedcf1697246098ad77cebdeb9795434f4bf782cb4b71c02a706"
+ },
+ "acs2019/state_29.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:29"
+  },
+  "fetched_utc": "2026-11-05T02:59:17+00:00",
+  "bytes": 206895,
+  "sha256": "95e82645791642fa4bed9e17f8dfb7dd21aeecd95ba81ff9a80c54dafc8fe604"
+ },
+ "acs2019/state_30.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:30"
+  },
+  "fetched_utc": "2026-11-05T02:59:18+00:00",
+  "bytes": 39595,
+  "sha256": "c0b931d84fd2ae5dff6a33379e747dd1005de028ed9de944670ff36d3c7f0b75"
+ },
+ "acs2019/state_31.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:31"
+  },
+  "fetched_utc": "2026-11-05T02:59:18+00:00",
+  "bytes": 78010,
+  "sha256": "1f63041b2dfa36344be43aa9add5505af0fdd3f00a5d55dacc4403f778cfc4ba"
+ },
+ "acs2019/state_32.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:32"
+  },
+  "fetched_utc": "2026-11-05T02:59:19+00:00",
+  "bytes": 99098,
+  "sha256": "d4210c17005d77d5508fd8cdf31a8b0897e8805cc4c85e57a78d8f8fd19b3438"
+ },
+ "acs2019/state_33.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:33"
+  },
+  "fetched_utc": "2026-11-05T02:59:20+00:00",
+  "bytes": 46071,
+  "sha256": "dccc971fed2517ab238638acf3f4ef2166efef659551c098e4969c94cbd7a9e2"
+ },
+ "acs2019/state_34.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:34"
+  },
+  "fetched_utc": "2026-11-05T02:59:21+00:00",
+  "bytes": 303347,
+  "sha256": "dbe66518aebbdf385c26ade71118c5d596b0c6fb429a0ae870610dd6f0d6b208"
+ },
+ "acs2019/state_35.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:35"
+  },
+  "fetched_utc": "2026-11-05T02:59:22+00:00",
+  "bytes": 75208,
+  "sha256": "b466e57c01fa9cf7670896c51e65dd03347bea9679b982c14790c48728e0031c"
+ },
+ "acs2019/state_36.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:36"
+  },
+  "fetched_utc": "2026-11-05T02:59:24+00:00",
+  "bytes": 727614,
+  "sha256": "b532fbe4cadc9ab49373ec8aade50dc04bdf3c01886644eb9328895dc8f11cd7"
+ },
+ "acs2019/state_37.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:37"
+  },
+  "fetched_utc": "2026-11-05T02:59:25+00:00",
+  "bytes": 340132,
+  "sha256": "992f64aa6baffea00a3ee9550237c714b75e69820d7e1042518497237f6981ff"
+ },
+ "acs2019/state_38.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:38"
+  },
+  "fetched_utc": "2026-11-05T02:59:26+00:00",
+  "bytes": 30757,
+  "sha256": "15618c3622ad5d227731b05463908fa524340131dd238a41a7bf225bcbee6e38"
+ },
+ "acs2019/state_39.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:39"
+  },
+  "fetched_utc": "2026-11-05T02:59:27+00:00",
+  "bytes": 423554,
+  "sha256": "454d9804cf296b53955a772132a359043f3bf8fd2ccdb837a667d084ac93e7d5"
+ },
+ "acs2019/state_40.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:40"
+  },
+  "fetched_utc": "2026-11-05T02:59:28+00:00",
+  "bytes": 153874,
+  "sha256": "a5eba2d1a4bcbe9f315cb88ecb210093b012f1fde3b0f70380128b7022204a97"
+ },
+ "acs2019/state_41.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:41"
+  },
+  "fetched_utc": "2026-11-05T02:59:29+00:00",
+  "bytes": 123109,
+  "sha256": "c430362359fdaef86e459ea7f9db04143f5bf5eb6b3deacf6b5a0dd796dfea1d"
+ },
+ "acs2019/state_42.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:42"
+  },
+  "fetched_utc": "2026-11-05T02:59:30+00:00",
+  "bytes": 493880,
+  "sha256": "4dd8359adbec8b6f9a97b8f5afe342b6b3fc6dace5c7eae58da02a54f9aaffb1"
+ },
+ "acs2019/state_44.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:44"
+  },
+  "fetched_utc": "2026-11-05T02:59:31+00:00",
+  "bytes": 37740,
+  "sha256": "33e374963a779ab9398fcf8f6a180a8b17b2e2db92cf50389c6e441cc804cc0b"
+ },
+ "acs2019/state_45.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:45"
+  },
+  "fetched_utc": "2026-11-05T02:59:32+00:00",
+  "bytes": 171388,
+  "sha256": "df9fc13735db07115946ec66d3e1a6cf583e2781d4d38f4dba614dc93048ad75"
+ },
+ "acs2019/state_46.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:46"
+  },
+  "fetched_utc": "2026-11-05T02:59:32+00:00",
+  "bytes": 33709,
+  "sha256": "b59357b539048d3a1a4860bac3fb101a90c3543c6c25d786ebbb9c0dd816d36c"
+ },
+ "acs2019/state_47.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:47"
+  },
+  "fetched_utc": "2026-11-05T02:59:33+00:00",
+  "bytes": 222852,
+  "sha256": "88c589c5389cc2b844c583db9526444094d2e3c699935de3fe5d2339cf1ee24a"
+ },
+ "acs2019/state_48.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:48"
+  },
+  "fetched_utc": "2026-11-05T02:59:36+00:00",
+  "bytes": 762854,
+  "sha256": "a8b154bb180326546b536ed61f22755efc1fb3d527e09d560df8a2859f3795fb"
+ },
+ "acs2019/state_49.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:49"
+  },
+  "fetched_utc": "2026-11-05T02:59:37+00:00",
+  "bytes": 85180,
+  "sha256": "459fc880d4802686bc620411b1d8c45b454534aba6670322c2861beba64bef40"
+ },
+ "acs2019/state_50.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:50"
+  },
+  "fetched_utc": "2026-11-05T02:59:37+00:00",
+  "bytes": 27334,
+  "sha256": "6db2353472bc5bbda4052913f883ba5814fa05845e6721f57e33f06f51dfc590"
+ },
+ "acs2019/state_51.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:51"
+  },
+  "fetched_utc": "2026-11-05T02:59:38+00:00",
+  "bytes": 286347,
+  "sha256": "2f3a7d987c4946652e61fb51fd137d62b2ea66c0ad905c80ba9e7ef470d1f5c3"
+ },
+ "acs2019/state_53.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:53"
+  },
+  "fetched_utc": "2026-11-05T02:59:40+00:00",
+  "bytes": 219046,
+  "sha256": "580f9376af7e8af003a84137374171eebf2d58b2ff98769cd9fc80146cb931ff"
+ },
+ "acs2019/state_54.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:54"
+  },
+  "fetched_utc": "2026-11-05T02:59:40+00:00",
+  "bytes": 73498,
+  "sha256": "fe2f8f70dc1b7cb269dcf1cd14ca315ba33523a08ab761dbd6b4fb1d6cfa04d5"
+ },
+ "acs2019/state_55.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:55"
+  },
+  "fetched_utc": "2026-11-05T02:59:41+00:00",
+  "bytes": 209042,
+  "sha256": "2654cddb1172485e6b5179cc7ef085a1851edada2ad5cb7d6b2604382df9a640"
+ },
+ "acs2019/state_56.json": {
+  "url": "https://api.census.gov/data/2019/acs/acs5",
+  "params": {
+   "get": "NAME,B17001_001E,B17001_002E,B19013_001E,B15003_001E,B15003_022E,B15003_023E,B15003_024E,B15003_025E,B23025_003E,B23025_005E,B25044_001E,B25044_003E,B25044_010E",
+   "for": "tract:*",
+   "in": "state:56"
+  },
+  "fetched_utc": "2026-11-05T02:59:42+00:00",
+  "bytes": 19433,
+  "sha256": "4cf7f484a5263983d9ea08edf3a97044fbc89f916a797bf39ed1ee27deea2d42"
+ }
+}
