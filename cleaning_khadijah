@@ -30,14 +30,25 @@ df[pct_cols] = df[pct_cols] / 100
 # 6. Flag tiny tracts whose rates are unstable (e.g. 100% unemployment)
 df["small_tract"] = (df["Pop2010"] < 500) | (df["OHU2010"] < 50)
 
-# 7. Flag Census top/bottom-coded incomes (250,001 and 2,499 are placeholders)
-for col in ["MedianFamilyIncome", "acs_median_hh_income"]:
-    df[f"{col}_coded"] = df[col].isin([2499, 250001])
 
 # 8. Report what's still missing; decide per column whether to drop or impute
 print("Remaining missing values:")
 print(df.isna().sum()[lambda s: s > 0])
 print("Clean shape:", df.shape)
+
+
+no_poverty_rate = df[df["acs_poverty_rate"].isna()]
+#print(no_poverty_rate["Pop2010"])
+
+
+df = df.rename(columns={"Pop2010": "population", "Urban" : "urban_yes", "MedianFamilyIncome": "median_family_income"})
+
+before_poverty_drop = len(df)
+df = df.dropna(subset=["acs_poverty_rate"])
+print(f"Dropped {before_poverty_drop - len(df)} rows that did not have a poverty rate due to low population")
+
+print(df.columns)
+
 
 df.to_parquet("data/processed/tracts_clean.parquet", index=False)
 #print(df.head)
