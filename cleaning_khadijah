@@ -1,6 +1,44 @@
 import pandas as pd
 
-df = pd.read_parquet("/data/processed/tracts_merged.parquet")  # needs pyarrow: pip install pyarrow
-print(df.head())      # first 5 rows
-print(df.info())      # columns, types, row count
-print(df.describe())  # quick stats for numeric columns
+
+
+df = pd.read_parquet("data/processed/tracts_merged.parquet")  # needs pyarrow: pip install pyarrow
+
+"""Clean tracts_merged.parquet -> data/processed/tracts_clean.parquet"""
+import numpy as np
+import pandas as pd
+
+df = pd.read_parquet("data/processed/tracts_merged.parquet")
+print("Raw shape:", df.shape)
+
+assert (df["places_pop"] == df["Pop2010"]).all()
+df = df.drop(columns=["places_pop"])
+
+# 2. Keep GEOID as a zero-padded string and add a state FIPS column
+df["GEOID"] = df["GEOID"].astype(str).str.zfill(11)
+df["state_fips"] = df["GEOID"].str[:2]
+assert df["GEOID"].is_unique
+
+# 3. Drop rows missing the outcome (all are Florida, state 12, absent from PLACES)
+df = df.dropna(subset=["depression", "mental_distress"])
+
+# 4. Put every rate/share on the same 0-1 scale (USDA columns are 0-100)
+pct_cols = ["PovertyRate", "lapop1share", "lapop10share",
+            "lahunv1share", "lahunv10share"]
+df[pct_cols] = df[pct_cols] / 100
+
+# 6. Flag tiny tracts whose rates are unstable (e.g. 100% unemployment)
+df["small_tract"] = (df["Pop2010"] < 500) | (df["OHU2010"] < 50)
+
+# 7. Flag Census top/bottom-coded incomes (250,001 and 2,499 are placeholders)
+for col in ["MedianFamilyIncome", "acs_median_hh_income"]:
+    df[f"{col}_coded"] = df[col].isin([2499, 250001])
+
+# 8. Report what's still missing; decide per column whether to drop or impute
+print("Remaining missing values:")
+print(df.isna().sum()[lambda s: s > 0])
+print("Clean shape:", df.shape)
+
+df.to_parquet("data/processed/tracts_clean.parquet", index=False)
+#print(df.head)
+
