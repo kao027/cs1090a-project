@@ -1,10 +1,10 @@
 {
- "places_2023_tract.csv": {
-  "url": "https://data.cdc.gov/api/views/hky2-3tpn/rows.csv?accessType=DOWNLOAD",
+ "places_2021_tract.csv": {
+  "url": "https://data.cdc.gov/api/views/mb5y-ytti/rows.csv?accessType=DOWNLOAD",
   "params": {},
-  "fetched_utc": "2026-11-05T02:49:25+00:00",
-  "bytes": 56011772,
-  "sha256": "c9053f65c7a283a1d1c859374afdff133ffec30a3246a362819535209b17f889"
+  "fetched_utc": "2026-11-12T21:15:00+00:00",
+  "bytes": 47651877,
+  "sha256": "e0f610819cb7901af382d4c852e5105f69c8a2b9598f48fbe4f44aa05ae48d66"
  },
  "usda_lram_2019.zip": {
   "url": "https://www.ers.usda.gov/media/5627/2019-large-retailer-access-map-lram-formerly-known-as-the-food-access-research-atlas-fara-data.zip?v=91164",
